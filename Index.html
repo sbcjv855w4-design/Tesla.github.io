@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TESIA INVESTMENT</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#111;
+color:#fff;
+}
+
+header{
+background:#000;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#e50914;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1600');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+padding:0 8%;
+}
+
+.hero-content{
+max-width:700px;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero h2{
+color:#e50914;
+margin-bottom:20px;
+}
+
+.hero p{
+line-height:1.8;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+background:#e50914;
+color:#fff;
+text-decoration:none;
+border-radius:5px;
+margin-right:10px;
+}
+
+.btn-secondary{
+background:transparent;
+border:1px solid #fff;
+}
+
+.section{
+padding:80px 8%;
+text-align:center;
+}
+
+.section h2{
+font-size:40px;
+margin-bottom:40px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1c1c1c;
+padding:30px;
+border-radius:10px;
+border:1px solid #333;
+}
+
+.card h3{
+color:#e50914;
+margin-bottom:15px;
+}
+
+.form-container{
+max-width:500px;
+margin:auto;
+}
+
+input{
+width:100%;
+padding:15px;
+margin-bottom:15px;
+border:none;
+border-radius:5px;
+}
+
+button{
+width:100%;
+padding:15px;
+background:#e50914;
+border:none;
+color:white;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
+
+footer{
+background:#000;
+padding:20px;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">TESIA INVESTMENT</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#login">Login</a>
+<a href="#register">Register</a>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+
+<h1>Leading the Charge in TESIA Investments</h1>
+
+<h2>Innovation • Growth • Opportunity</h2>
+
+<p>
+TESIA INVESTMENT provides financial education, market insights,
+and investment-related services designed to help clients make
+informed financial decisions.
+</p>
+
+<a href="#register" class="btn">Get Started</a>
+<a href="#login" class="btn btn-secondary">Login</a>
+
+</div>
+</section>
+
+<section id="about" class="section">
+<h2>About Us</h2>
+
+<p>
+TESIA INVESTMENT is committed to providing professional financial
+guidance, educational resources, and strategic market insights
+for clients around the world.
+</p>
+</section>
+
+<section id="services" class="section">
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Market Analysis</h3>
+<p>Research and insights on financial markets.</p>
+</div>
+
+<div class="card">
+<h3>Investment Education</h3>
+<p>Learn key principles of investing and risk management.</p>
+</div>
+
+<div class="card">
+<h3>Portfolio Guidance</h3>
+<p>General information on building diversified portfolios.</p>
+</div>
+
+</div>
+</section>
+
+<section id="login" class="section">
+
+<h2>Login</h2>
+
+<div class="form-container">
+
+<input type="email" placeholder="Email">
+
+<input type="password" placeholder="Password">
+
+<button>Login</button>
+
+</div>
+
+</section>
+
+<section id="register" class="section">
+
+<h2>Register</h2>
+
+<div class="form-container">
+
+<input type="text" placeholder="Full Name">
+
+<input type="email" placeholder="Email">
+
+<input type="password" placeholder="Password">
+
+<button>Create Account</button>
+
+</div>
+
+</section>
+
+<section class="section">
+<h2>Contact Us</h2>
+
+<p>Email: kennymikr@gmail.com</p>
+
+</section>
+
+<footer>
+© 2026 TESIA INVESTMENT. All Rights Reserved.
+</footer>
+
+</body>
+</html>
